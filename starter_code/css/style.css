@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Landing page
+Client: Relaxr
+Author: Connie Kephart
+Developer @GA in Denver
 */
 
 
@@ -12,33 +12,33 @@ Developer @GA in NYC
 
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
 
 .clear {
-  clear: both;
+    clear: both;
 }
 
 .alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+    float: right;
+    padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
 
 .alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+    float: left;
+    padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
 /******************************************
@@ -46,12 +46,49 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    text-align: center;
 }
 
+h1 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    margin: 85px auto 65px auto;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+p {
+    font:font-weight: 300;
+    font-size: 13px;
+}
+
+ul {
+    font-weight: 300;
+    font-size: 13px;
+    list-style-type: disc;
+    margin: 10px 50px;
+}
+
+button {
+    font-weight: 800px;
+    padding: 5px 35px;
+    border-radius: 5px;
+    border-width: 1px;
+}
 
 /******************************************
 /* LAYOUT
@@ -59,25 +96,93 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
-
+    width: 100%;
+    margin: auto;
+    height: 500px;
 }
 
 header {
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
+    background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+    background-size: cover;
+    color: #fff;
+    height: 600px;
+    padding: 15px 60px;
+}
+
+section {
+    text-align: left;
+    padding: 50px 60px;
+}
+
+aside {
+    background: url("../images/testimonial_bg.jpg") no-repeat center rgb(134,141,157);
+    background-size: cover;
+    text-align: left;
+    color: #fff;
+    padding: 100px 30%; 
+    height: 394px; 
 }
 
 footer {
-
+    background-color: #121212;
+    text-align: center;
+    color: #f9e42e;
+    padding: 50px 50px 0 50px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+#companyNamePos {
+    text-align: left;
+}
 
+#brightButton {
+    font-size: 14px;
+    color: #121212;
+    background-color: #f9e42e;
+    border-color: #f9e42e;
+}
+  
+#darkButton {
+    font-size: 12px;
+    color: #fff;
+    background-color: #033048;
+    border-color: #033048;
+}
 
+#benefits {
+    background-color: #f0efef;
+}
+
+#testimonial {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+}
+
+#fan {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin: 15px;
+}
+
+#signUpBar {
+    background-color: #f9e42e;
+    padding: 15px;
+    text-align: center;
+}
+
+#socialMedia {
+    margin: 50px auto;
+    width: 100px;
+}
+
+#copyright {
+    color: #fff;
+    margin: 60px auto;
+}
 
